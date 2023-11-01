@@ -8,7 +8,7 @@ import NavbarContent from "./navbar-content";
 
 export default function Navbar() {
   return (
-    <nav className=" fixed top-0 z-[5000000] flex w-full text-white items-center justify-between bg-transparent  px-[30px]  md:px-[100px] h-[75px]">
+    <nav className=" sticky top-0 z-[5000000] flex w-full text-white items-center justify-between bg-transparent  px-[30px]  md:px-[100px] h-[75px]">
       <Link href="/" className="flex gap-x-2 items-center">
         <h1 className=" text-[20px]">Aipidata</h1>
       </Link>
@@ -17,10 +17,10 @@ export default function Navbar() {
         <MobileSidebar />
         <div className="flex items-center  gap-8">
           <div className="hidden items-center md:flex text-[14px] gap-x-8">
-            <Link href="/">Work</Link>
-            <Link href="/">About</Link>
-            <Link href="/">Blog</Link>
-            <Link href="/">Contact</Link>
+            <Link href="/work">Work</Link>
+            <Link href="/about">About</Link>
+            <Link href="/blog">Blog</Link>
+            <Link href="/contact">Contact</Link>
           </div>{" "}
           <Sheet>
             <SheetTrigger className="md:flex hidden pr-4 hover:opacity-75 transition">

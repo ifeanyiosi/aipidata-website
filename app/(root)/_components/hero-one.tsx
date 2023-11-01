@@ -36,7 +36,7 @@ export default function HeroOne() {
           variants={fadeIn("up", 0.3)}
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
-          className="text-[37px] lg:text-[50px] text-center text-[#F13024]"
+          className="text-[37px] lg:text-[50px] text-center text-[#fff]"
         >
           Welcome to Aipidata.
         </motion.h1>
