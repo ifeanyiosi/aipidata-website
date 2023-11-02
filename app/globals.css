@@ -5,6 +5,14 @@
 html, body, :root {
   height: 100%;
 }
+
+@layer components {
+
+.account-form_input {
+    @apply border border-[#ccc] !important;
+}
+
+}
  
 @layer base {
   :root {

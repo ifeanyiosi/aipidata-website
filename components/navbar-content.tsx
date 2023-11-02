@@ -11,16 +11,16 @@ export default function NavbarContent() {
           <div className="flex flex-col md:flex-row items-start w-full justify-between ">
             <div className="flex w-full gap-4 text-[#000] flex-col font-bold text-[45px] items-start justify-center">
               {" "}
-              <Link className="hover:text-[#0e2a4a]" href="/">
+              <Link className="hover:text-[#0e2a4a]" href="/work">
                 Work
               </Link>
-              <Link className="hover:text-[#0e2a4a]" href="/">
+              <Link className="hover:text-[#0e2a4a]" href="/about">
                 About
               </Link>
-              <Link className="hover:text-[#0e2a4a]" href="/">
+              <Link className="hover:text-[#0e2a4a]" href="/blog">
                 Blog
               </Link>
-              <Link className="hover:text-[#0e2a4a]" href="/">
+              <Link className="hover:text-[#0e2a4a]" href="/contact">
                 Contact
               </Link>
             </div>
