@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import LaundryList from "./laundry-list";
 
 export default function AboutTwo() {
   return (
@@ -26,6 +27,7 @@ export default function AboutTwo() {
           </h1>
         </div>
       </div>
+      <LaundryList />
     </div>
   );
 }

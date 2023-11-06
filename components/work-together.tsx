@@ -14,7 +14,7 @@ export default function WorkTogether() {
         READY TO CREATE SOMETHING AMAZING
       </h1>
 
-      <h1 className="text-[36px] lg:text-[50px] mt-[20px] mb-[10px] text-[#000]">
+      <h1 className="text-[36px] text-center lg:text-[50px] mt-[20px] mb-[10px] text-[#000]">
         Let&apos;s Work Together
       </h1>
 

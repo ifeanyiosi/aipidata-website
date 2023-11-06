@@ -46,7 +46,7 @@ export default function COntactOne() {
               <h1 className="text-red font-bold text-[14px] lg:text-[15px] mt-[20px] mb-[10px] ">
                 BUSINESS AND ENQUIRES
               </h1>
-              <h4 className="text-[25px] lg:text-[28px] my-[10px] ">
+              <h4 className="text-[15px] lg:text-[18px] my-[10px] ">
                 Info@aipidata.com
               </h4>
             </div>

@@ -9,8 +9,8 @@ import NavbarContent from "./navbar-content";
 export default function Navbar() {
   return (
     <nav className=" top-0 z-[5000000] flex w-full text-white items-center justify-between bg-transparent  px-[30px]  md:px-[100px] h-[75px]">
-      <Link href="/" className="flex gap-x-2 items-center">
-        <h1 className=" text-[20px]">Aipidata</h1>
+      <Link href="/" className="flex text-[20px] gap-x-2 items-center">
+        Aipidata
       </Link>
 
       <div className="flex gap-2">
