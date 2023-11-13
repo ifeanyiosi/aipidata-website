@@ -37,7 +37,7 @@ export default function COntactOne() {
       <div className="flex flex-col items-start lg:flex-row justify-between">
         <div className="w-full flex flex-col items-start">
           <h1 className="text-[36px] lg:text-[50px] text-[#000] mt-[20px] mb-[10px] leading-[42px] lg:leading-[60px] font-[400] lg:pr-[85px] ">
-            You had us at &#34;Hello.&#34; Let&#34;s make something great
+            You had us at &#34;Hello.&#34; Let&apos;s make something great
             together.
           </h1>
 

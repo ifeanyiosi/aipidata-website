@@ -16,11 +16,11 @@ export default function HeroThree() {
           <Image
             width={650}
             height={500}
-            className="object-cover h-[300px]"
+            className="object-cover rounded-t-md h-[300px]"
             src="/images/piHealth.png"
             alt=""
           />
-          <h1 className="text-red text-[25px] font-[700] mt-[20px] mb-[10px] ">
+          <h1 className="text-[#F1B324] text-[25px] font-[700] mt-[20px] mb-[10px] ">
             Pi-Health
           </h1>
           <h3 className="text-[14px] lg:text-[20px] text-[#000] ">
@@ -34,11 +34,11 @@ export default function HeroThree() {
             <Image
               width={650}
               height={500}
-              className="object-cover h-[300px]"
+              className="object-cover rounded-t-md h-[300px]"
               src="/images/lektore.png"
               alt=""
             />
-            <h1 className="text-red text-[14px] lg:text-[28px] font-[700] mt-[20px] mb-[10px] ">
+            <h1 className="text-[#F1B324] text-[14px] lg:text-[28px] font-[700] mt-[20px] mb-[10px] ">
               Lektore
             </h1>
             <h3 className="text-[14px] lg:text-[20px] text-[#000] ">
@@ -49,11 +49,11 @@ export default function HeroThree() {
             <Image
               width={650}
               height={500}
-              className="object-cover h-[300px]"
+              className="object-cover rounded-t-md h-[300px]"
               src="/images/cur8.jpg"
               alt=""
             />
-            <h1 className="text-red text-[14px] lg:text-[28px] font-[700] mt-[20px] mb-[10px] ">
+            <h1 className="text-[#F1B324] text-[14px] lg:text-[28px] font-[700] mt-[20px] mb-[10px] ">
               Cur-8
             </h1>
             <h3 className="text-[14px] lg:text-[20px] text-[#000] ">
@@ -62,7 +62,10 @@ export default function HeroThree() {
           </div>
         </div>
 
-        <Button onClick={() => router.push("/work")} className="mt-[50px]">
+        <Button
+          onClick={() => router.push("/work")}
+          className="mt-[50px] bg-red hover:bg-red"
+        >
           See All Our Work 👉
         </Button>
       </div>

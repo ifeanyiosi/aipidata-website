@@ -13,7 +13,7 @@ export default function Home() {
       <Navbar />
       <HeroOne />
       <HeroTwo />
-      <HeroThree />
+      {/* <HeroThree /> */}
       <HeroFour />
       <HeroFive />
       <WorkTogether />

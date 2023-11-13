@@ -20,7 +20,7 @@ export default function WorkTogether() {
 
       <Button
         onClick={() => router.push("/contact")}
-        className="shadow-lg mt-[56px] bg-red hover:bg-red "
+        className="shadow-lg mt-[56px] bg-[#F1B324] hover:bg-[#F1B324] "
       >
         Get In Touch 😊
       </Button>

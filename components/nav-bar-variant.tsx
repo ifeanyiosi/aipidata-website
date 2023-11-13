@@ -20,16 +20,16 @@ export default function NavbarVariant() {
         <MobileSidebar />
         <div className="flex items-center  gap-8">
           <div className="hidden items-center font-bold md:flex text-[14px] text-[#000] gap-x-8">
-            <Link className="hover:text-red " href="/work">
+            <Link className="hover:text-[#F1B324] " href="/work">
               Work
             </Link>
-            <Link className="hover:text-red " href="/about">
+            <Link className="hover:text-[#F1B324] " href="/about">
               About
             </Link>
-            <Link className="hover:text-red " href="/blog">
+            <Link className="hover:text-[#F1B324] " href="/blog">
               Blog
             </Link>
-            <Link className="hover:text-red " href="/contact">
+            <Link className="hover:text-[#F1B324]" href="/contact">
               Contact
             </Link>
           </div>{" "}
