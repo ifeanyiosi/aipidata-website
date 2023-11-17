@@ -11,11 +11,11 @@ export default function HeroFour() {
   return (
     <div className="flex min-h-screen bg-[#000] relative z-[10] lg:px-[100px] px-[30px] justify-center py-[50px] flex-col items-center w-full">
       <div className="flex flex-col-reverse items-center lg:flex-row justify-between">
-        <div className="w-full">
+        <div className="w-full lg:w-[50%]">
           <h1 className="text-[36px] mb-[25px] text-[#fff]">
             We help companies make the most of their digital experiences.
           </h1>
-          <p className="text-[16px] lg:px-[30px]  mb-[25px] text-[#fff]">
+          <p className="text-[16px]   mb-[25px] text-[#fff]">
             You’re not looking for a vendor. You’re looking for a partner. One
             who wants to understand your challenges—all of them—in order to make
             your project successful. (And we know that not all of those are
@@ -25,7 +25,7 @@ export default function HeroFour() {
 
           <Button
             onClick={() => router.push("/about")}
-            className="mt-8 bg-[#F1B324] hover:bg-[#F1B324] "
+            className="mt-8 bg-[#2081b8] rounded-[5px] py-[20px] px-[125px] "
           >
             Learn More About Us
           </Button>
@@ -36,7 +36,7 @@ export default function HeroFour() {
             src={"/bulb.png"}
             width={260}
             height={200}
-            className="w-full h-full"
+            className="w-[300px] h-full"
             alt=""
           />
         </div>

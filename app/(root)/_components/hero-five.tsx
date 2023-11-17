@@ -47,7 +47,7 @@ export default function HeroFive() {
 
           <Button
             onClick={() => router.push("/contact")}
-            className="mt-8 bg-[#F1B324] hover:bg-[#F1B324] "
+            className="mt-8 bg-[#2081b8] rounded-[5px] py-[20px] px-[125px]  "
           >
             Get In Touch!
           </Button>

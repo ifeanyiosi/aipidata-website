@@ -43,7 +43,7 @@ export default function COntactOne() {
 
           <div className="mt-[85px] w-full flex  flex-col md:flex-row lg:flex-col mb-[48px] min-h-[100%] text-[#333] text-[14px]  ">
             <div className="flex items-start w-full justify-start flex-col">
-              <h1 className="text-red font-bold text-[14px] lg:text-[15px] mt-[20px] mb-[10px] ">
+              <h1 className="text-[#2081b8] font-bold text-[14px] lg:text-[15px] mt-[20px] mb-[10px] ">
                 BUSINESS AND ENQUIRES
               </h1>
               <h4 className="text-[15px] lg:text-[18px] my-[10px] ">

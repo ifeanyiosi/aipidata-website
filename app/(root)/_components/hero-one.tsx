@@ -36,7 +36,7 @@ export default function HeroOne() {
           variants={fadeIn("up", 0.3)}
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
-          className="text-[37px] lg:text-[50px] text-center text-[#fff]"
+          className="text-[37px] text-center text-[#fff]"
         >
           Welcome to Aipidata.
         </motion.h1>
@@ -46,7 +46,7 @@ export default function HeroOne() {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
-          className="lg:text-[#fff] my-[10px] text-center lg:text-left text-[#8d8a8a] text-[16px] lg:text-[28px]"
+          className="lg:text-[#fff] my-[10px] text-center lg:text-left text-[#8d8a8a] text-[16px] lg:text-[18px]"
         >
           We specialize in{" "}
           <TypeAnimation
@@ -62,8 +62,8 @@ export default function HeroOne() {
               "Social Engineering",
               2000,
             ]}
-            speed={50}
-            className="text-[#F1B324] fint-bold "
+            speed={20}
+            className="text-[#F1B324] font-bold "
             wrapper="span"
             repeat={Infinity}
           />{" "}
@@ -74,9 +74,9 @@ export default function HeroOne() {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
-          className="lg:text-[#fff] my-[10px] mt-4 text-center lg:text-left text-[#8d8a8a] text-[16px] lg:text-[28px]"
+          className="lg:text-[#fff] my-[10px] mt-4 text-center lg:text-left text-[#8d8a8a] text-[16px] lg:text-[18px]"
         >
-          We also build apps. <br /> You want it? We build it.
+          We also build apps, You want it? We build it.
         </motion.h1>
       </div>
       <div className="w-[1200px] h-full absolute right-0 bottom-0">

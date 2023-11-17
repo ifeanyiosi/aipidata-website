@@ -29,7 +29,7 @@ export default function HeroTwo() {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            className="text-[25px] lg:text-[28px] text-[#fff] text-left lg:text-left py-[70px] lg:px-[35px] my-[10px] "
+            className="text-[25px] lg:text-[32px] text-[#fff] text-left lg:text-left py-[70px] lg:px-[35px] my-[10px] "
           >
             Imagine you were really wow&apos;d by a software experience.
           </motion.h1>
@@ -41,7 +41,7 @@ export default function HeroTwo() {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            className="text-[25px] lg:text-[28px] text-[#fff] text-right lg:text-right py-[70px] lg:px-[35px] my-[10px]"
+            className="text-[25px] lg:text-[32px] text-[#fff] text-right lg:text-right py-[70px] lg:px-[35px] my-[10px]"
           >
             With us you don&apos;t need to imagine it
           </motion.h1>
@@ -52,7 +52,7 @@ export default function HeroTwo() {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
-          className="text-[20px]  text-[#fff] mx-auto lg:max-w-[600px] text-center"
+          className="text-[18px]  text-[#fff] mx-auto lg:max-w-[600px] text-center"
         >
           We ❤️ AI. We’ve spent our careers building it. Line by line, code by
           code and project by project. Take a look at our work and you’ll see

@@ -10,7 +10,7 @@ export default function WorkTogether() {
   return (
     <div className="flex min-h-screen bg-[#fff] relative z-[10] lg:px-[100px]  justify-center py-[50px] flex-col items-center w-full">
       <div className="absolute hidden lg:flex mx-auto mb-[30px] top-0 left-0 right-0 bottom-auto bg-[#000] w-[1px] h-[250px] "></div>
-      <h1 className="text-[15px] text-center mt-[28px] mb-[10px] font-[700] text-red ">
+      <h1 className="text-[15px] text-center mt-[28px] mb-[10px] font-[700] text-[#2081b8] ">
         READY TO CREATE SOMETHING AMAZING
       </h1>
 
@@ -20,7 +20,7 @@ export default function WorkTogether() {
 
       <Button
         onClick={() => router.push("/contact")}
-        className="shadow-lg mt-[56px] bg-[#F1B324] hover:bg-[#F1B324] "
+        className="shadow-lg mt-[56px] bg-[#2081b8] rounded-[5px] py-[20px] px-[125px] "
       >
         Get In Touch 😊
       </Button>
