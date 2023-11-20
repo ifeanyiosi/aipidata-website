@@ -38,7 +38,7 @@ export default function HeroOne() {
           </h1>
         </div>
         <div className="z-[500000] mt-[95px] w-full flex items-start justify-start">
-          <Link href="/contact">
+          <Link className="w-full" href="/contact">
             <Button className="bg-transparent border w-full lg:w-[200px] border-gray-300 ">
               Skip The Small Talk 😊
             </Button>

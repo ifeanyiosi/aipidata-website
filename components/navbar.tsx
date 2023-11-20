@@ -28,7 +28,7 @@ export default function Navbar() {
               <HiMenuAlt4 className="text-[25px] text-[#fff] " />
             </SheetTrigger>
 
-            <SheetContent side="top" className="p-0 bg-red-500 h-screen w-full">
+            <SheetContent side="top" className="p-0  h-screen w-full">
               <NavbarContent />
             </SheetContent>
           </Sheet>
