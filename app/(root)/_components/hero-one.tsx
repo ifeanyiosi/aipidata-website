@@ -6,6 +6,7 @@ import { TypeAnimation } from "react-type-animation";
 import ParticlesContainer from "./particles-container";
 import { fadeIn } from "@/variants";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function HeroOne() {
   return (
@@ -32,13 +33,16 @@ export default function HeroOne() {
       <div className="  top-[50%] lg:translate-y-[10%] w-full flex flex-col items-center justify-center lg:items-start lg:justify-start">
         <div className="lg:w-[500px] mt-[300px] lg:mt-0 ">
           <h1 className="text-[#fff]  mb-[10px] text-center lg:text-left lg:text-[50px] text-[20px] ">
-            We imagine, design & build digital products.We are AIPIDATA.
+            We imagine, design & build. <br /> We are{" "}
+            <span className="text-blue">AIPIDATA.</span>
           </h1>
         </div>
         <div className="z-[500000] mt-[95px] w-full flex items-start justify-start">
-          <Button className="bg-transparent border w-full lg:w-[200px] border-gray-300 ">
-            Skip The Small Talk 😊
-          </Button>
+          <Link href="/contact">
+            <Button className="bg-transparent border w-full lg:w-[200px] border-gray-300 ">
+              Skip The Small Talk 😊
+            </Button>
+          </Link>
         </div>
       </div>
 

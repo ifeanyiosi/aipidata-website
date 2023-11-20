@@ -24,19 +24,19 @@ export const expertise = [
 export const showcase = [
   {
     id: 1,
-    title: "Neon Lights",
+    title: "Lektore",
     cover: "/images/s1.jpg",
     catgeory: "DIGITAL MARKETING",
   },
   {
     id: 2,
-    title: "Futuristic Furniture",
+    title: "Pi-Health",
     catgeory: "WEBSITES",
     cover: "/images/s2.jpg",
   },
   {
     id: 3,
-    title: "Smart Living",
+    title: "Cur-8",
     cover: "/images/s3.jpg",
     catgeory: "WEBSITES",
   },
