@@ -9,14 +9,14 @@ export default function HeroFive() {
 
   return (
     <div className="flex min-h-screen bg-[#f3f3f3] relative z-[10] lg:px-[100px] px-[30px] justify-center py-[50px] flex-col items-center w-full">
-      <div className="flex flex-col items-center max-w-[1200px] lg:flex-row justify-between">
+      <div className="flex flex-col items-center max-w-[1200px] w-full lg:flex-row justify-between">
         <div className="lg:w-[30%] w-full ">
           <h1 className="text-[36px] text-center mb-[25px] text-[#000]">
             Our secret sauce
           </h1>
         </div>
 
-        <div className="lg:w-[65%]">
+        <div className="lg:w-[65%] w-full">
           <h3 className="text-[16px] font-[700]  text-[#000]">
             Planning begins by understanding the right goals
           </h3>
@@ -47,7 +47,7 @@ export default function HeroFive() {
 
           <Button
             onClick={() => router.push("/contact")}
-            className="mt-8 bg-[#2081b8] rounded-[5px] py-[20px] px-[125px]  "
+            className="mt-8 bg-[#2081b8] lg:w-[200px] w-full rounded-[5px] py-[20px] px-[125px]  "
           >
             Get In Touch!
           </Button>

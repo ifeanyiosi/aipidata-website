@@ -1,6 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
+import WorkCard from "@/components/work-card";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
@@ -10,61 +11,13 @@ export default function HeroThree() {
   const router = useRouter();
 
   return (
-    <div className="flex min-h-screen relative z-[10] justify-center pt-36 flex-col items-center w-full ">
-      <div className="bg-[#fff] w-full min-h-screen py-[100px] flex items-center justify-center flex-col px-[30px] lg:px-[100px] ">
-        <div className="flex flex-col items-center shadow-md p-4">
-          <Image
-            width={650}
-            height={500}
-            className="object-cover rounded-t-md h-[300px]"
-            src="/images/piHealth.png"
-            alt=""
-          />
-          <h1 className="text-[#2081b8] text-[25px] font-[700] mt-[20px] mb-[10px] ">
-            Pi-Health
-          </h1>
-          <h3 className="text-[14px] lg:text-[20px] text-[#000] ">
-            A remote monitoring tool that uses AI.
-          </h3>
-        </div>
-
-        <div className="flex items-center justify-center lg:flex-row flex-col gap-4 mt-8">
-          {" "}
-          <div className="w-full shadow-md p-4">
-            <Image
-              width={650}
-              height={500}
-              className="object-cover rounded-t-md h-[300px]"
-              src="/images/lektore.png"
-              alt=""
-            />
-            <h1 className="text-[#2081b8] text-[14px] lg:text-[28px] font-[700] mt-[20px] mb-[10px] ">
-              Lektore
-            </h1>
-            <h3 className="text-[14px] lg:text-[20px] text-[#000] ">
-              A platform for non-english speakers to learn english.
-            </h3>
-          </div>
-          <div className="w-full shadow-md p-4">
-            <Image
-              width={650}
-              height={500}
-              className="object-cover rounded-t-md h-[300px]"
-              src="/images/cur8.jpg"
-              alt=""
-            />
-            <h1 className="text-[#2081b8] text-[14px] lg:text-[28px] font-[700] mt-[20px] mb-[10px] ">
-              Cur-8
-            </h1>
-            <h3 className="text-[14px] lg:text-[20px] text-[#000] ">
-              An app built to help you keep track of your goals.
-            </h3>
-          </div>
-        </div>
+    <div className="flex min-h-screen relative bg-[#080e10] z-[10] justify-center pt-36 flex-col items-center w-full ">
+      <div className="bg-[#080e10] w-full min-h-screen py-[100px] flex items-center justify-center flex-col px-[30px] lg:px-[100px] ">
+        <WorkCard />
 
         <Button
           onClick={() => router.push("/work")}
-          className="mt-[50px] bg-[#2081b8] px-[125px] py-[20px] hover:bg-red"
+          className="mt-[50px] w-full lg:w-[200px] bg-[#2081b8] px-[125px] py-[20px] hover:bg-red"
         >
           See All Our Work 👉
         </Button>

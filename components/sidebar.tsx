@@ -9,7 +9,7 @@ export default function Sidebar() {
       <div className="flex flex-col items-center justify-center gap-8 w-full text-[26px]">
         <Link href="/">Work</Link>
         <Link href="/">About</Link>
-        <Link href="/">Blog</Link>
+
         <Link href="/">Contact</Link>
       </div>
     </div>

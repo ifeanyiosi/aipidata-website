@@ -17,7 +17,7 @@ export default function LaundryList() {
 
       <LaundryItems label="The Impossible" />
 
-      <Button className="bg-[#2081b8] rounded-[5px] py-[20px] px-[125px] hover:bg-[#F1B324]  ">
+      <Button className="bg-[#2081b8] lg:w-[200px] w-full rounded-[5px] py-[20px] px-[125px] hover:bg-[#F1B324]  ">
         {" "}
         Check Out Our Projects
       </Button>

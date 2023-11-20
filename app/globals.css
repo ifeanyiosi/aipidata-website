@@ -86,3 +86,27 @@ html, body, :root {
     @apply bg-background text-foreground;
   }
 }
+
+.expertise {
+  .card-img {
+    height: 300px;
+  }
+}
+
+.container {
+  max-width: 90%;
+  margin: auto;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  .grid-2,
+  .grid-3,
+  .grid-6,
+  .grid-4 {
+    @include grid(repeat(1, 1fr), 50px);
+  }
+}

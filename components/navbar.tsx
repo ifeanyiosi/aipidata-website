@@ -8,7 +8,7 @@ import NavbarContent from "./navbar-content";
 
 export default function Navbar() {
   return (
-    <nav className=" top-0 z-[5000000] flex w-full text-white items-center justify-between bg-transparent  px-[30px]  md:px-[100px] h-[75px]">
+    <nav className=" top-0 z-[50000000] flex w-full text-white items-center justify-between bg-transparent  px-[30px]  md:px-[100px] h-[75px]">
       <Link href="/" className="flex text-[20px] gap-x-2 items-center">
         Aipidata
       </Link>
@@ -16,7 +16,7 @@ export default function Navbar() {
       <div className="hidden items-center md:flex text-[14px] gap-x-20">
         <Link href="/work">Work</Link>
         <Link href="/about">About</Link>
-        <Link href="/blog">Blog</Link>
+
         <Link href="/contact">Contact</Link>
       </div>
 
@@ -25,7 +25,7 @@ export default function Navbar() {
         <div className="flex items-center  gap-8">
           <Sheet>
             <SheetTrigger className="md:flex hidden pr-4 hover:opacity-75 transition">
-              <HiMenuAlt4 className="text-[25px]" />
+              <HiMenuAlt4 className="text-[25px] text-[#fff] " />
             </SheetTrigger>
 
             <SheetContent side="top" className="p-0 bg-red-500 h-screen w-full">

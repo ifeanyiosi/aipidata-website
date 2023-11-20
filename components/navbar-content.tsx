@@ -17,9 +17,7 @@ export default function NavbarContent() {
               <Link className="hover:text-[#0e2a4a]" href="/about">
                 About
               </Link>
-              <Link className="hover:text-[#0e2a4a]" href="/blog">
-                Blog
-              </Link>
+             
               <Link className="hover:text-[#0e2a4a]" href="/contact">
                 Contact
               </Link>

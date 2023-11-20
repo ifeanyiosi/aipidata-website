@@ -8,7 +8,7 @@ export default function MobileSidebar() {
   return (
     <Sheet>
       <SheetTrigger className="md:hidden pr-4 hover:opacity-75 transition">
-        <HiMenuAlt4 />
+        <HiMenuAlt4 className="text-[#000]" />
       </SheetTrigger>
 
       <SheetContent side="top" className="p-0 bg-white">

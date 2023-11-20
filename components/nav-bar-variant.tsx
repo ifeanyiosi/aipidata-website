@@ -23,9 +23,7 @@ export default function NavbarVariant() {
         <Link className="hover:text-[#F1B324] " href="/about">
           About
         </Link>
-        <Link className="hover:text-[#F1B324] " href="/blog">
-          Blog
-        </Link>
+
         <Link className="hover:text-[#F1B324]" href="/contact">
           Contact
         </Link>
