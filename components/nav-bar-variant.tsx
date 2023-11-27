@@ -8,7 +8,7 @@ import NavbarContent from "./navbar-content";
 
 export default function NavbarVariant() {
   return (
-    <nav className=" top-0 z-[5000000] flex w-full text-white  items-center justify-between   px-[30px]  md:px-[100px] h-[75px]">
+    <nav className=" top-0 z-[5000000] sticky flex w-full text-white  items-center justify-between   px-[30px]  md:px-[100px] h-[75px]">
       <Link
         href="/"
         className="flex gap-x-2 items-center text-[#000] font-bold text-[20px]"
